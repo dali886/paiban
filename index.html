@@ -1,0 +1,641 @@
+<!DOCTYPE html>
+<html lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>在线排版-文字排版-网站文章在线排版-免费文字在线排版工具</title>
+<meta name="description" content="完全免费的文字在线排版工具，一键排版，轻松替换，字数统计，快速无广告，快速生成HTML代码，小编都爱我，我是全能的文字在线排版工具。">
+<meta name="keywords" content="文字排版,文字排版工具,在线排版,在线排版工作,自动排版,自动排版工具,网站文章在线排版">
+<style>
+body * {box-sizing:border-box;flex-shrink:0;font-family:PingFangSC-Regular;margin:0;}
+body {font-family:PingFangSC-Regular,Roboto,Helvetica Neue,Helvetica,Tahoma,Arial,PingFang SC-Light,Microsoft YaHei;}
+button {margin:0;padding:0;border:1px solid transparent;outline:none;background-color:transparent;}
+button:active {opacity:0.6;}
+.flex-col {display:flex;flex-direction:column;}
+.flex-row {display:flex;flex-direction:row;}
+select,input,textarea,li,ul,dl,dt,dd {outline-style:none;border:none;list-style-type:none;display:block;margin:0;padding:0;}
+.mod7:hover,.bd2:hover,.bd1:hover,.mod10:hover {z-index:99999;}
+.page {z-index:1;position:relative;width:100%;height:auto;background-color:rgba(255,255,255,1);overflow:hidden;justify-content:flex-start;padding-top:0;}
+.section1 {z-index:auto;width:100%;height:auto;}
+.group1 {z-index:9999999;height:68px;background-color:rgba(255,255,255,1);box-shadow:inset 0px -1px 0px 0px rgba(238,238,238,1);width:100%;justify-content:center;align-items:center;}
+.group2 {z-index:auto;width:1200px;height:44px;position:relative;}
+.outer1 {z-index:auto;width:132px;height:40px;margin-top:3px;}
+.info1 {z-index:29;width:132px;display:block;overflow-wrap:break-word;color:rgba(51,51,51,1);font-size:22px;font-family:zihun59hao-chuangcuhei;white-space:nowrap;line-height:22px;text-align:left;}
+.word1 {z-index:30;width:132px;display:block;overflow-wrap:break-word;color:rgba(153,153,153,1);font-size:14px;letter-spacing:0.30000001192092896px;font-family:SourceHanSansCN-Light;white-space:nowrap;line-height:14px;text-align:left;margin-top:4px;}
+.box1 {z-index:auto;width:124px;height:25px;justify-content:space-between;}
+.icon1 {z-index:15;width:24px;height:25px;}
+.txt1 {z-index:27;width:96px;display:block;overflow-wrap:break-word;color:#4162ea;font-size:16px;font-family:PingFangSC-Regular;white-space:nowrap;line-height:16px;text-align:left;margin-top:4px;}
+.outer3 {z-index:4;height:44px;border-radius:22px;border-width:1px;border:1px solid rgba(221,221,221,1);margin-left:914px;width:152px;justify-content:center;align-items:center;position:relative;}
+.main1 {z-index:auto;width:104px;height:22px;justify-content:space-between;}
+.icon2 {z-index:5;width:20px;height:20px;margin-top:1px;}
+.txt2 {z-index:10;width:64px;display:block;overflow-wrap:break-word;color:rgba(51,51,51,1);font-size:16px;font-family:PingFangSC-Semibold;white-space:nowrap;line-height:22px;text-align:left;}
+.icon3 {z-index:11;width:12px;height:8px;margin-top:7px;}
+.txt3 {z-index:118;width:auto;display:block;overflow-wrap:break-word;color:rgba(51,51,51,1);font-size:32px;font-family:PingFangSC-Semibold;white-space:nowrap;line-height:20px;text-align:left;align-self:center;margin-top:48px;}
+.txt4 {z-index:119;width:auto;display:block;overflow-wrap:break-word;color:rgba(153,153,153,1);font-size:16px;font-family:PingFangSC-Regular;white-space:nowrap;line-height:16px;text-align:left;align-self:center;margin-top:16px;}
+.group3 {z-index:auto;width:1200px;height:86px;margin:38px auto 0;}
+.mod1 {z-index:auto;width:70px;height:66px;margin-top:6px;}
+.txt5 {z-index:34;width:70px;display:block;overflow-wrap:break-word;color:rgba(51,51,51,1);font-size:14px;font-family:PingFangSC-Regular;white-space:nowrap;line-height:20px;text-align:left;}
+.word2 {z-index:81;width:70px;display:block;overflow-wrap:break-word;color:rgba(51,51,51,1);font-size:14px;font-family:PingFangSC-Regular;white-space:nowrap;line-height:20px;text-align:left;margin-top:26px;}
+.mod2 {z-index:auto;width:558px;height:77px;margin-left:2px;}
+.layer1 {z-index:auto;width:558px;height:31px;}
+.bd1 {z-index:36;height:30px;margin-top:1px;width:68px;justify-content:center;align-items:center;position:relative;}
+.layer2 {z-index:auto;width:52px;height:100%;justify-content:space-between;}
+.txt6 {z-index:39;width:28px;display:block;overflow-wrap:break-word;color:rgba(51,51,51,1);font-size:14px;font-family:PingFangSC-Medium;white-space:nowrap;line-height:14px;text-align:left;}
+.icon4 {z-index:37;width:12px;height:8px;margin-top:3px;}
+.txt7 {z-index:41;width:70px;display:block;overflow-wrap:break-word;color:rgba(51,51,51,1);font-size:14px;font-family:PingFangSC-Regular;white-space:nowrap;line-height:20px;text-align:left;margin:6px 0 0 36px;}
+.bd2 {z-index:42;height:30px;/*  border-radius:4px;border-width:1px;border:1px solid rgba(204,204,204,1);background-color:rgba(255,255,255,1);*/  width:100px;justify-content:center;align-items:center;margin:1px 0 0 2px;position:relative;}
+.mod3 {z-index:auto;width:84px;height:28px;justify-content:space-between;}
+.word3 {z-index:45;width:56px;display:block;overflow-wrap:break-word;color:rgba(51,51,51,1);font-size:14px;font-family:PingFangSC-Medium;white-space:nowrap;line-height:14px;text-align:left;}
+.label1 {z-index:43;width:12px;height:8px;margin-top:3px;}
+.word4 {z-index:53;width:70px;display:block;overflow-wrap:break-word;color:rgba(51,51,51,1);font-size:14px;font-family:PingFangSC-Regular;white-space:nowrap;line-height:20px;text-align:left;margin:5px 0 0 36px;}
+.bd3 {z-index:54;height:30px;margin-left:2px;width:68px;justify-content:center;align-items:center;}
+.bd3 input {display:block;width:100%;height:30px;border-radius:4px;border-width:1px;text-align:center;border:1px solid rgba(204,204,204,1);background-color:rgba(255,255,255,1);text-indent:2px;}
+.txt8 {z-index:55;width:10px;display:block;overflow-wrap:break-word;color:rgba(51,51,51,1);font-size:16px;font-family:PingFangSC-Medium;white-space:nowrap;line-height:16px;text-align:left;}
+.word5 {z-index:57;width:70px;display:block;overflow-wrap:break-word;color:rgba(51,51,51,1);font-size:14px;font-family:PingFangSC-Regular;white-space:nowrap;line-height:20px;text-align:left;margin:5px 0 0 36px;}
+.layer3 {z-index:auto;width:557px;height:30px;margin-top:16px;}
+.section2 {z-index:82;width:323px;height:30px;border-radius:4px;border-width:1px;border:1px solid rgba(204,204,204,1);background-color:rgba(255,255,255,1);}
+.info2 {z-index:84;width:70px;display:block;overflow-wrap:break-word;color:rgba(51,51,51,1);font-size:14px;font-family:PingFangSC-Regular;white-space:nowrap;line-height:20px;text-align:left;margin:6px 0 0 16px;}
+.hh {z-index:85;width:22px;height:22px;margin:5px 0 0 2px;background:url(//www.kw360.net/public/image/checked.png);cursor:pointer;}
+.hh.ck {background:url(//www.kw360.net/public/image/check.png);}
+.word6 {z-index:89;width:84px;display:block;overflow-wrap:break-word;color:rgba(51,51,51,1);font-size:14px;font-family:PingFangSC-Regular;white-space:nowrap;line-height:20px;text-align:left;margin:6px 0 0 16px;}
+.label2 {z-index:90;width:22px;height:22px;margin:5px 0 0 2px;}
+.mod4 {z-index:auto;width:83px;height:73px;margin-left:2px;}
+.mod5 {z-index:58;height:30px;border-radius:4px;border-width:1px;align-self:flex-start;width:68px;justify-content:center;align-items:flex-start;}
+.mod5 input {width:100%;height:30px;text-indent:2px;border-radius:4px;border-width:1px;border:1px solid rgba(204,204,204,1);background-color:rgba(255,255,255,1);text-align:center;}
+.txt9 {z-index:59;width:7px;display:block;overflow-wrap:break-word;color:rgba(51,51,51,1);font-size:16px;font-family:PingFangSC-Medium;white-space:nowrap;line-height:16px;text-align:left;}
+.word7 {z-index:93;width:70px;display:block;overflow-wrap:break-word;color:rgba(51,51,51,1);font-size:14px;font-family:PingFangSC-Regular;white-space:nowrap;line-height:20px;text-align:left;align-self:flex-end;margin-top:23px;}
+.mod6 {z-index:auto;width:192px;height:78px;margin-left:2px;}
+.mod7 {z-index:auto;width:172px;height:30px;margin-left:20px;justify-content:space-between;}
+.txt10 {z-index:47;width:70px;display:block;overflow-wrap:break-word;color:rgba(51,51,51,1);font-size:14px;font-family:PingFangSC-Regular;white-space:nowrap;line-height:20px;text-align:left;margin-top:5px;}
+.mod8 {z-index:48;height:30px;width:100px;justify-content:center;align-items:center;position:relative;}
+.layer4 {position:absolute;top:0;left:0;min-height:30px;line-height:30px;width:100%;}
+.layer4::after {position:absolute;content:"";background-color:#FFFFFF;transition-property:all;transition-duration:0.3s;border-radius:4px;width:100%;height:100%;top:0;left:-1px;z-index:-1;box-shadow:none;border:1px solid rgba(204,204,204,1);}
+.layer4 ul {/* height:0;*//* display:none;*/text-align:left;list-style-type:none;padding:0;margin:0;overflow:hidden;}
+.layer4:hover ul {display:block;}
+.layer4:hover::after {display:block;transform:scale(1.1);border:none;border:1px solid rgba(204,204,204,0);box-shadow:0px 4px 16px 0px rgba(0,0,0,0.1);}
+.layer4 li {height:0px;display:block;width:100%;font-size:14px;font-family:PingFangSC-Medium,PingFang SC;font-weight:500;color:#333333;cursor:pointer;text-indent:8px;position:relative;overflow:hidden;border-radius:4px;transition-duration:0.3s;}
+.layer4:hover li {height:30px;}
+.layer4 span {height:30px;display:block;width:100%;font-size:14px;font-family:PingFangSC-Medium,PingFang SC;font-weight:500;color:#333333;cursor:pointer;text-indent:8px;position:relative;margin:auto;}
+/* /images/arrow-down.png */.layer4 span::after {position:absolute;top:0;right:8px;text-indent:0;content:url("//www.kw360.net/public/image/arrow-down.png");z-index:333;transition-duration:0.3s;}
+.layer4:hover span::after {transform:rotate(-180deg);}
+.layer4 li:hover,.layer4 li.cur {background-color:#f5f5f6;color:#4162ea;}
+.layer4 li:hover::after,.layer4 li.cur::after {position:absolute;top:0;right:8px;width:12px;height:30px;text-indent:0;content:url("//www.kw360.net/public/image/arrow-hover.png");z-index:333;}
+.info3 {z-index:51;width:28px;display:block;overflow-wrap:break-word;color:rgba(51,51,51,1);font-size:14px;font-family:PingFangSC-Medium;white-space:nowrap;line-height:14px;text-align:left;}
+.label3 {z-index:49;width:12px;height:8px;margin-top:3px;}
+.mod9 {z-index:auto;width:192px;height:30px;margin-top:18px;justify-content:flex-start;}
+.mod9 input {width:68px;height:30px;text-indent:2px;border-radius:4px;border-width:1px;border:1px solid rgba(204,204,204,1);background-color:rgba(255,255,255,1);text-align:center;}
+.icon6 {z-index:94;width:22px;height:22px;margin-top:4px;}
+.word8 {z-index:97;width:84px;display:block;overflow-wrap:break-word;color:rgba(51,51,51,1);font-size:14px;font-family:PingFangSC-Regular;white-space:nowrap;line-height:20px;text-align:left;margin:5px 0 0 16px;}
+.pic1 {z-index:99;width:68px;height:30px;margin-left:2px;}
+.word9 {z-index:98;width:16px;display:block;overflow-wrap:break-word;color:rgba(51,51,51,1);font-size:16px;font-family:PingFangSC-Medium;white-space:nowrap;line-height:22px;text-align:left;margin:4px 22px 0 -38px;}
+.mod10 {z-index:103;height:86px;border-radius:8px;background-color:#f5f5f6;margin-left:24px;width:267px;justify-content:center;align-items:center;cursor:pointer;}
+.section9:hover,.section9:hover .info5,.section10:hover,.section10:hover .word16,.mod10:hover,.mod10:hover .word10,.mod10:hover .word11 {background:#4162ea;color:#FFFFFF;cursor:pointer;}
+.group4 {z-index:auto;width:212px;height:30px;}
+.word10 {z-index:104;width:80px;display:block;overflow-wrap:break-word;color:#4162ea;font-size:20px;font-family:PingFangSC-Medium;white-space:nowrap;line-height:28px;text-align:left;margin-top:1px;}
+.word11 {z-index:106;width:42px;display:block;overflow-wrap:break-word;color:rgba(51,51,51,1);font-size:14px;font-family:PingFangSC-Regular;white-space:nowrap;line-height:20px;text-align:left;margin:5px 0 0 16px;}
+.mod11 {z-index:108;position:relative;height:30px;border-radius:4px;background-color:rgba(255,255,255,1);margin-left:6px;width:68px;justify-content:center;align-items:center;}
+.outer4 {z-index:auto;width:52px;/* height:14px;*/  justify-content:space-between;}
+.txt11 {z-index:111;/* width:28px;*/  display:block;border:none;overflow-wrap:break-word;color:rgba(51,51,51,1);font-size:14px;font-family:PingFangSC-Medium;white-space:nowrap;line-height:14px;text-align:left;outline:none;outline-style:none;}
+.label4 {z-index:109;width:12px;height:8px;margin-top:3px;}
+.group5 {z-index:220;width:1200px;height:30px;margin:8px auto 0;}
+.word12 {z-index:75;width:14px;display:block;overflow-wrap:break-word;color:rgba(51,51,51,1);font-size:14px;font-family:PingFangSC-Regular;white-space:nowrap;line-height:20px;text-align:left;margin-top:5px;}
+.section3 {z-index:77;width:124px;height:30px;border-radius:4px;border-width:1px;border:1px solid rgba(204,204,204,1);background-color:rgba(255,255,255,1);margin-left:8px;}
+.txt12 {z-index:76;width:42px;display:block;overflow-wrap:break-word;color:rgba(51,51,51,1);font-size:14px;font-family:PingFangSC-Regular;white-space:nowrap;line-height:20px;text-align:left;margin:5px 0 0 8px;}
+.section4 {z-index:78;width:124px;height:30px;border-radius:4px;border-width:1px;border:1px solid rgba(204,204,204,1);background-color:rgba(255,255,255,1);margin-left:8px;}
+.section5 {z-index:72;height:30px;border-radius:15px;border-width:1px;border:1px solid #9eb0f8;background-color:rgba(255,255,255,1);margin-left:8px;width:80px;justify-content:center;font-weight:normal;align-items:center;}
+.section5:hover {border:1px solid #4162ea;}
+.word13 {z-index:73;width:56px;display:block;overflow-wrap:break-word;color:#4162ea;font-size:14px;font-family:PingFangSC-Regular;white-space:nowrap;line-height:14px;text-align:left;cursor:pointer;}
+.section6 {z-index:62;height:30px;border-radius:15px;border-width:1px;border:1px solid #9eb0f8;background-color:rgba(255,255,255,1);margin-left:12px;width:80px;font-family:PingFangSC-Regular;justify-content:center;align-items:center;position:relative;}
+.section6:hover {border:1px solid #4162ea;}
+.section6::after {position:absolute;content:"";background-color:rgba(255,255,255,1);box-shadow:0px 0px 0px 0px rgba(238,238,238,0);z-index:-2;border-radius:5px;padding:0 12px;top:0;left:50%;width:0;height:0;line-height:30px;font-size:14px;overflow:hidden;color:rgba(51,51,51,0);background:#fff;display:block;opacity:1;text-align:center;transition-timing-function:ease-in;transition-duration:.3s;}
+.section6.show::after {width:150%;height:30px;top:30px;left:-40%;color:rgba(51,51,51,1);background-color:rgba(255,255,255,0.7);box-shadow:0px 0px 10px 4px rgba(238,238,238,1);opacity:1;}
+.word14 {z-index:63;width:56px;display:block;overflow-wrap:break-word;color:#4162ea;font-size:14px;white-space:nowrap;line-height:14px;text-align:left;cursor:pointer;}
+.section7 {z-index:65;height:30px;border-radius:15px;border-width:1px;font-family:PingFangSC-Regular;border:1px solid #9eb0f8;background-color:rgba(255,255,255,1);margin-left:12px;width:173px;justify-content:center;align-items:center;}
+.section7:hover {border:1px solid #4162ea;}
+.word15 {z-index:66;width:141px;display:block;overflow-wrap:break-word;color:#4162ea;font-size:14px;white-space:nowrap;line-height:14px;text-align:left;cursor:pointer;}
+.section8 {font-family:PingFangSC-Regular;z-index:68;height:30px;border-radius:15px;border-width:1px;border:1px solid #9eb0f8;background-color:rgba(255,255,255,1);margin-left:12px;width:80px;justify-content:center;align-items:center;position:relative;}
+.section8:hover {border:1px solid #4162ea;}
+.section8::after {position:absolute;content:"复制成功";background-color:rgba(255,255,255,1);box-shadow:0px 0px 0px 0px rgba(238,238,238,0);z-index:-2;border-radius:5px;top:24px;width:100%;height:30px;line-height:30px;font-size:14px;color:rgba(51,51,51,0);background:#fff;display:block;opacity:0;transition-timing-function:ease-in;transition-duration:0.3s;}
+.section8.show::after {top:34px;color:rgba(51,51,51,1);background-color:rgba(255,255,255,0.7);box-shadow:0px 0px 10px 4px rgba(238,238,238,1);opacity:1;}
+/* .section8.showed::after {content:"鏃犲唴瀹�";}
+*/.section8.cur {background-color:#4162ea;border:1px solid rgba(204,204,204,0);}
+.section8.cur .info4 {color:#fff;}
+.info4 {z-index:69;width:56px;display:block;overflow-wrap:break-word;color:#4162ea;font-size:14px;white-space:nowrap;line-height:14px;text-align:left;cursor:pointer;}
+.section9 {z-index:113;height:30px;border-radius:8px;background-color:#f5f5f6;margin-left:18px;width:130px;justify-content:center;align-items:flex-start;padding-left:35px;}
+.info5 {z-index:114;width:56px;display:block;overflow-wrap:break-word;color:#4162ea;font-size:14px;font-family:PingFangSC-Medium;white-space:nowrap;line-height:14px;text-align:left;}
+.section11 {font-family: PingFangSC-Regular;z-index: 68;height: 30px;border-radius: 15px;border-width: 1px;border: 1px solid #9eb0f8;background-color: rgba(255,255,255,1);margin-left: 12px;width: 118px;justify-content: center;align-items: center;position: relative;}
+.section11:hover {border: 1px solid #4162ea;}
+.section11.cur {background-color: #4162ea;border: 1px solid rgba(204,204,204,0);}
+.section11.cur .word17 {color:#ffffff;}
+.word17 {z-index: 69;display: block;overflow-wrap: break-word;color: #4162ea;font-size: 14px;white-space: nowrap;line-height: 14px;text-align: left;cursor: pointer;}
+.section10 {z-index:116;height:30px;border-radius:8px;background-color:#f5f5f6;margin-left:7px;width:130px;justify-content:center;align-items:flex-end;padding-right:21px;}
+.word16 {z-index:117;width:84px;display:block;overflow-wrap:break-word;color:#4162ea;font-size:14px;font-family:PingFangSC-Medium;white-space:nowrap;line-height:14px;text-align:left;}
+.group6 {z-index:120;width:1200px;height:540px;align-self:center;margin-top:24px;position:relative;}
+.group6 textarea {width:1200px;height:540px;padding:12px 15px;border-radius:8px;border-width:1px;font-size:14px;border:1px solid rgba(204,204,204,1);background-color:rgba(249,249,249,1);}
+.group6 .numTips {z-index:3333;width:auto;height:34px;line-height:34px;padding:0 12px;position:absolute;right:10px;bottom:10px;background-color:rgba(255,255,255,1);box-shadow:0px 0px 10px 4px rgba(238,238,238,1);font-size:14px;border-radius:10px;height:34px;line-height:32px;}
+.infoBox1 {z-index:121;width:446px;height:48px;display:block;overflow-wrap:break-word;color:rgba(102,102,102,1);font-size:12px;font-family:PingFangSC-Regular;line-height:24px;text-align:center;align-self:center;margin-top:72px;overflow:hidden;text-overflow:ellipsis;}
+.infoBox1 a {color:rgba(102,102,102,1);text-decoration:none;}
+.fcode {position:absolute;right:20px;top:15px;z-index:9999;text-align:right;font-size:18px;font-weight:bold;width:auto;background:#FFF;overflow:hidden;display:none;}
+.outer11 {z-index:108;width:575px;/*  background:#FFFFFF;box-shadow:0px 8px 32px 0px rgba(0,0,0,0.12);*/  border-radius:16px;justify-content:center;align-items:center;position:absolute;right:0;top:38px;opacity:0;padding:0 22px;height:0;/* overflow:hidden;*/    transition-duration:0.3s;}
+.outer11::after {z-index:-1;position:absolute;top:12px;left:0;width:100%;height:calc( 100% - 27px);content:"";background-color:#fff;border-radius:16px;box-shadow:0px 8px 32px 0px rgb(0 0 0 / 12%);}
+.outer3:hover .outer11 {opacity:1;display:block;padding:52px 22px 40px;height:auto;}
+.outer11 dl {display:none;}
+.outer3:hover .outer11 dl {display:block;}
+.outer11 dl dt {height:42px;overflow:hidden;position:relative;}
+.outer11 dl dt::after {z-index:9999;width:2px;height:42px;background:#4162ea;content:"";top:0;left:0px;position:absolute;}
+.outer11 dl dt a {/* width:25%;*/height:28px;font-size:14px;display:block;float:left;line-height:14px;font-family:PingFangSC-Medium,PingFang SC;font-weight:500;color:#333333;margin-left:18px;text-decoration:none;}
+.outer11 dl a:hover {color:#4162ea;}
+.outer11 dd {display:block;width:495px;margin:38px auto 0;overflow:hidden;}
+.outer11 dd a {width:27%;height:28px;font-size:14px;font-family:PingFangSC-Regular,PingFang SC;font-weight:400;color:#666666;display:block;float:left;line-height:14px;text-decoration:none;}
+.outer11 dd a:nth-child(4n) {width:19%;}
+.outer11 li {height:0;border-radius:8px;background-color:rgba(246,246,246,1);width:268px;margin-top:0;justify-content:center;align-items:center;transition-duration:0.6s;overflow:hidden;}
+.outer3:hover .outer11 li {margin:8px auto 0;height:42px;}
+.outer11 li:hover {background-color:#f5f5f6;}
+.outer11 li a {display:block;width:100%;height:100%;text-align:center;line-height:43px;text-decoration:none;color:rgba(51,51,51,1);font-size:14px;font-family:PingFangSC-Medium;}
+.outer11 li a:hover {color:#4162ea;}
+</style>
+  <input type="hidden" id="_w_simile" data-inspect-config="3"><script type="text/javascript" src="chrome-extension://dbjbempljhcmhlfpfacalomonjpalpko/scripts/inspector.js"></script></head>
+  <body>
+    <div class="page flex-col">
+      <div class="section1 flex-col">
+        <div class="group1 flex-col">
+          <div class="group2 flex-row">
+            <div class="outer1 flex-col">
+              <span class="info1">在线排版工具</span>
+              <span class="word1"></span>
+            </div>
+            <div class="outer3 flex-col">
+              <div class="main1 flex-row">
+                <span class="txt2">更多工具</span>
+              </div>
+			  
+            </div>
+			
+          </div>
+        </div>
+        <span class="txt3" style="display: none;">在线排版工具</span> 
+        <span class="txt4" style="display: none;">免费文字自动排版工具</span>
+        <div class="group3 flex-row" id="afeconfig">
+          <div class="mod1 flex-col">
+            <span class="txt5">标点修正：</span>
+            <span class="word2">尾部签名：</span>
+          </div>
+          <div class="mod2 flex-col">
+            <div class="layer1 flex-row">
+              <div class="bd1 flex-col">
+                <div class="layer4">
+                	<input type="hidden" name="zhcn" value="0" id="biaodian">
+                	<span>不变</span>
+                	<ul>
+                		<li data-value="0" class="cur">不变</li>
+                		<li data-value="1">中文</li>
+                		<li data-value="2">英文</li>
+                	</ul>
+                </div>
+              </div>
+              <span class="txt7">空格类型：</span>
+              <div class="bd2 flex-col">
+				<div class="layer4">
+					<input type="hidden" class="tb" name="blanktype" value="0">
+					<span>全角空格</span>
+					<ul>
+						<li data-value="0" class="cur">全角空格</li>
+						<li data-value="1">半角空格</li>
+						<li data-value="2">Tab键</li>
+					</ul>
+				</div>
+				
+              </div>
+              <span class="word4">段前空格：</span>
+              <div class="bd3 flex-col">
+					<input type="text" value="2" name="blank_left" class="trims">
+			  </div>
+              <span class="word5">段前行数：</span>
+            </div>
+            <div class="layer3 flex-row">
+			  <input class="section2 flex-col" name="sign" type="text" value="">
+              <span class="info2">签名换行：</span>
+			  <img src="./sucai/blank.gif" class="hh" id="sign" align="right">
+            </div>
+          </div>
+          <div class="mod4 flex-col">
+            <div class="mod5 flex-col">
+				<input type="text" value="1" name="prem" class="ps">
+			</div>
+            <span class="word7">添加行号：</span>
+          </div>
+          <div class="mod6 flex-col">
+            <div class="mod7 flex-row">
+              <span class="txt10">简体繁体：</span>
+              <div class="mod8 flex-col">
+				<div class="layer4">
+					<input type="hidden" class="jf" name="changezh" value="0">
+					<span>不变</span>
+					<ul>
+						<li data-value="0" class="cur">不变</li>
+						<li data-value="1">转为简体</li>
+						<li data-value="2">转为繁体</li>
+					</ul>
+				</div>
+              </div>
+            </div>
+            <div class="mod9 flex-row">
+              <img src="./sucai/blank.gif" class="hh ck" id="xl" align="right">
+              <span class="word8">行号间隔符：</span>
+			  <input type="text" name="linestr" id="xlf" value=":">
+            </div>
+          </div>
+          <div class="mod10 flex-col" id="sub">
+            <div class="group4 flex-row">
+              <span class="word10">一键排版</span>
+              <span class="word11">Ctrl&nbsp;+</span>
+              <div class="mod11 flex-col">
+                
+				<div class="layer4">
+					<input type="hidden" name="subkey" class="subkey" value="13">
+					<span>回车</span>
+					<ul>
+						<li data-value="13" class="cur">回车</li>
+						<li data-value="18">Alt</li>
+						<li data-value="16">Shift</li>
+						<li data-value="112">F1</li>
+						<li data-value="113">F2</li>
+						<li data-value="114" "="">F3</li>
+					</ul>
+				</div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="group5 flex-row">
+          <span class="word12">将</span>
+		  <input type="text" name="str" value="" class="section3 flex-col">
+          <span class="txt12">替换为</span>
+		  <input type="text" name="tostr" value="" class="section4 flex-col">
+          <div class="section5 flex-col">
+            <span class="word13 tostr">立即替换</span>
+          </div>
+          <div class="section6 flex-col">
+            <span class="word14">字数统计</span>
+          </div>
+          <div class="section7 flex-col">
+            <span class="word15 clear">
+              清空&nbsp;[&nbsp;Shift&nbsp;+&nbsp;Enter&nbsp;]
+            </span>
+          </div>
+          <button class="section8 flex-col">
+            <span class="info4 copy">复制结果</span>
+          </button>
+          <button class="section11 flex-col">
+            <span class="word17 copy">生成HTML代码</span>
+          </button>
+          <button class="section9 flex-col">
+            <span class="info5" id="saveConfig">保存配置</span>
+          </button>
+          <div class="section10 flex-col">
+            <span class="word16" id="delConfig">恢复默认配置</span>
+          </div>
+        </div>
+		<div class="gn group6 flex-col" id="sconfig">
+			<input type="hidden" name="action" value="sub">
+			<textarea name="content" class="textarea" id="textarea"></textarea>
+		    <div class="fcode">X<br><img src="https://www.kw360.net/paiban/"></div>
+			<br>
+			<div class="numTips">当前字符数:0</div>
+		</div>
+
+      </div>
+    </div>
+  
+  <script type="text/javascript" src="./sucai/jquery-1.11.1.js"></script>
+  <script type="text/javascript" src="./sucai/clipboard.min.js"></script>
+  <script type="text/javascript" src="./sucai/public.js"></script>
+  <script type="text/javascript" src="./sucai/fanti.js"></script>
+  <script type="text/javascript">
+
+  var cacheBody = '';
+
+  $(function() {
+	  
+	  var clipboard = new Clipboard('.copy', {
+		  target: function () {
+			  
+			  var __content = $("#textarea").val()
+			  if(__content.length > 0 ){
+				  $(".section8").addClass("show")
+			  }
+			  setTimeout(function(){
+				  $(".section8").removeClass("show")
+			  },1200)
+			return document.querySelector('textarea');
+		  },
+		});
+
+	  $(".section6").click(function(){
+		  $("body").append('<style id="showtips">.section6::after{content:"共计 '+len_str(document.getElementById('textarea').value)+' 字符"}</style>')
+		  $(this).addClass("show")
+		  setTimeout(function(){
+			  $("#showtips").remove()
+			  $(".section6").removeClass("show")
+		  },3000)
+	  })
+
+      // 生成前后加<p>的html代码
+      $(".section11").click(function() {
+          let __opText = $(".word17").html();
+          if(__opText == '生成HTML代码') {
+            var __content = $("#textarea").val()
+            if(__content == '') {
+                return;
+            }
+            cacheBody = __content; // 保存生成html前内容
+            let arrBody = __content.split(/[(\r\n)\r\n]+/);
+            for(var i=0; i<arrBody.length; i++) {
+                arrBody[i] = '<p>' + arrBody[i] + '</p>';
+            }
+            __content = arrBody.join("\n");
+            $("#textarea").val(__content);
+            $(".word17").html('返回文本');
+			$(".section11").addClass("cur");
+            return false;
+          }
+          if(__opText == "返回文本") {
+            $("#textarea").val(cacheBody);
+            $(".word17").html('生成HTML代码');
+            $(".section11").removeClass("cur")
+          }
+        
+      })
+	  
+	  var ths
+	  $(".layer4").on("click","ul li",function(){
+	  	ths = $(this).parents(".layer4")
+	  	ths.find("input").val($(this).attr("data-value"))
+	  	ths.find("span").text($(this).text())
+	  	$(this).addClass("cur").siblings().removeClass()
+	  })
+	  
+  	//保存配置在本地浏览器
+  	var localconfig = JSON.parse(localStorage.getItem("localKey"))||{}
+  	console.log(localconfig)
+  	//if(localconfig['oneedit'] == '一键排版'){
+  		for (var property in localconfig){
+  			console.log(property+"///"+localconfig[property])
+  			$("#afeconfig [name="+property+"]").val(localconfig[property])
+  		}
+  	//}
+  	$("#delConfig").click(function(){
+  			localStorage.removeItem("localKey")
+  			alert("配置信息已删除,刷新当前页面后将恢复默认值!")
+  	})
+  	$("#saveConfig").click(function(){
+  		localconfig = {}
+  		$("#afeconfig").find("select,input").each(function(){
+  			if($(this).attr("name") != undefined){
+  				//$(this).val()
+  				localconfig[$(this).attr("name")] = $(this).val()
+  			}
+  		})
+  		//console.log(localconfig)
+  		localStorage.setItem("localKey",JSON.stringify(localconfig))
+  		alert("当前配置信息已经保存到浏览器中,刷新后仍然有效!")
+  	})
+  	
+  	$(".mod11").click(function(e){
+		e.stopPropagation(); 
+	})
+	
+	$('#textarea').on("input propertychange", function () {
+		var textareal = $("#textarea").val()
+		if(textareal.length > 0){
+			$(".section8").addClass("cur")
+		}else{
+			$(".section8").removeClass("cur")
+		}
+		$(".numTips").text("当前字符数:"+len_str(document.getElementById('textarea').value))
+	})
+	
+	$("html,body").on({
+		keydown:function(e){
+			//console.log("e.ctrlKey:"+e.ctrlKey+",e.which:"+e.which)
+			//e.ctrlKey:true,e.which:13
+			if(e.ctrlKey && e.which == $(".subkey").val() || e.which == 10) { 
+				//console.log(111)
+				$("#sub").trigger("click")
+				return false;
+			} else if (e.shiftKey && e.which==$(".subkey").val() || e.which == 10) { 
+				$(".clear").trigger("click")
+				return false;
+			} 
+		},
+		keyup:function(e){
+
+		},
+		mouseup:function(e){
+			
+		}
+	})
+	
+  	$(".subkey").change(function(){
+  		$("#sub").val("一键排版")
+  	})
+      $(".clear").click(function() {
+          $("#textarea").val("")
+      });
+
+  	$(".tostr").click(function(){
+  		var str=restr($("#textarea").val(),$("input[name=str]").val(),$("input[name=tostr]").val())
+  		$("#textarea").val(str)
+  	})
+  	$(".hh").click(function(){
+  		$(this).toggleClass("ck")
+  	})
+  	$("body").on("click",".fcode",function(){
+  		$(this).slideUp(300)
+  	})
+      $("#sub").click(function() {
+          var con = $("#textarea").val(),
+              trims = "",
+              pre = "",
+              tb = "";
+  		if(con.length<2){return false;}
+  		$(".fcode").slideUp()
+          for (i = 0; i <= $(".ps").val(); i++) {
+              trims += "\n"
+          }
+          switch ($(".tb").val()) {
+              case "0":
+                  //tb = "　"; 此处有疑问
+                  tb = "　";
+                  break;
+              case "1":
+                  tb = " ";
+                  break;
+              case "2":
+                  tb = "	";
+                  break
+          }
+          for (i = 0; i < $(".trims").val(); i++) {
+              pre += tb
+          }
+          trims += pre;
+          con = bd(con, $("#biaodian").val());
+          con = up(con).replace(/\b\s{1,}\b/gi, "@@@@");
+          con = con.replace(/\s/ig, "");
+  		//添加序列号
+  		if(!$("#xl").hasClass("ck")){
+  			con = con.replace(/((<br\/>){1,})/gi, trims+"=##=");
+  			var str_sp=con.split("=##=")
+  			var ii=1
+  			for(i=0;i<str_sp.length;i++){
+  				//删除左边的空格再判断
+  				if(str_sp[i].replace(/(^\s*)/g,"").length>0){
+  					str_sp[i]=ii+++($("#xlf").val()?$("#xlf").val():":")+str_sp[i]
+  				}
+  			}
+  			con=str_sp.join("")
+  		}else{
+  			con = con.replace(/((<br\/>){1,})/gi, trims);
+  		}
+        con = con.replace(/((ﻪ){1,})/gi, trims);
+        con = con.replace(/((ﻪ){1,})/gi, trims);
+  		con = con.replace(/(\s*$)/g, "");
+        con = pre + con.replace(/[@]{1,}/g, " ");
+  		//排版
+        var str = $("input[name=str]").val();//替换为
+  		var tostr = $("input[name=tostr]").val();//替换为
+        var jf = $(".jf").val(); // 简繁
+        var sign = $("input[name=sign]").val()?(($("#sign").hasClass("ck")?"":(pre+trims))+$("input[name=sign]").val()):"";//尾部签名
+        var ck = Number($("#sign").hasClass("ck"));
+        var res = convert(str, tostr, jf, sign, ck, con);
+        $("#textarea").val(($(".tb").val() > 0 ? pre : "") + res).select()
+        cacheBody = res;
+      })
+  });
+
+  function convert(str, tostr, jf, sign, ck, con) {
+    con = restr(con, str, tostr); //替换
+    if(jf == '1') {
+        con = simplized(con);// 繁体转简体
+    } else if(jf == '2') {
+        con = traditionalized(con);// 简体转繁体
+    }
+    if(sign != '') {
+        con += sign
+    }
+    console.log(con)
+    return con;
+  }
+  function pattern(str) {
+      str = str.replace(/<br[^>]*>/ig, "\n");
+      str = str.replace(/<p[^>\/]*\/>/ig, "\n");
+      str = str.replace(/\son[\w]{3,16}\s?=\s*([\'\"]).+?\1/ig, "");
+      str = str.replace(/<hr[^>]*>/ig, "[hr]");
+      str = str.replace(/<(sub|sup|u|strike|b|i|pre)>/ig, "[$1]");
+      str = str.replace(/<\/(sub|sup|u|strike|b|i|pre)>/ig, "[/$1]");
+      str = str.replace(/<(\/)?strong>/ig, "[$1b]");
+      str = str.replace(/<(\/)?em>/ig, "[$1i]");
+      str = str.replace(/<(\/)?blockquote([^>]*)>/ig, "[$1blockquote]");
+      str = str.replace(/<img[^>]*smile=\"(\d+)\"[^>]*>/ig, "[s:$1]");
+      str = str.replace(/<img[^>]*src=[\'\"\s]*([^\s\'\"]+)[^>]*>/ig, "[img]$1[/img]");
+      str = str.replace(/<a[^>]*href=[\'\"\s]*([^\s\'\"]*)[^>]*>(.+?)<\/a>/ig, "[url=$1]$2[/url]");
+      str = str.replace(/<[^>]*?>/ig, "");
+      str = str.replace(/&amp;/ig, "&");
+      str = str.replace(/&lt;/ig, "<");
+      str = str.replace(/&gt;/ig, ">");
+      return str
+  }
+  function up(str) {
+      str = str.replace(/</ig, "&lt;");
+      str = str.replace(/>/ig, "&gt;");
+      str = str.replace(/\n/ig, "<br />");
+      str = str.replace(/\[code\](.+?)\[\/code\]/ig, function ($1, $2) {
+          return phpcode($2)
+      });
+      str = str.replace(/\[hr\]/ig, "<hr />");
+      str = str.replace(/\[\/(size|color|font|backcolor)\]/ig, "</font>");
+      str = str.replace(/\[(sub|sup|u|i|strike|b|blockquote|li)\]/ig, "<$1>");
+      str = str.replace(/\[\/(sub|sup|u|i|strike|b|blockquote|li)\]/ig, "</$1>");
+      str = str.replace(/\[\/align\]/ig, "</p>");
+      str = str.replace(/\[(\/)?h([1-6])\]/ig, "<$1h$2>");
+      str = str.replace(/\[align=(left|center|right|justify)\]/ig, '<p align="$1">');
+      str = str.replace(/\[size=(\d+?)\]/ig, '<font size="$1">');
+      str = str.replace(/\[color=([^\[\<]+?)\]/ig, '<font color="$1">');
+      str = str.replace(/\[backcolor=([^\[\<]+?)\]/ig, '<font style="background-color:$1">');
+      str = str.replace(/\[font=([^\[\<]+?)\]/ig, '<font face="$1">');
+      str = str.replace(/\[list=(a|A|1)\](.+?)\[\/list\]/ig, '<ol type="$1">$2</ol>');
+      str = str.replace(/\[(\/)?list\]/ig, "<$1ul>");
+      str = str.replace(/\[s:(\d+)\]/ig, function ($1, $2) {
+          return smilepath($2)
+      });
+      str = str.replace(/\[img\]([^\[]*)\[\/img\]/ig, '<img src="$1" border="0" />');
+      str = str.replace(/\[url=([^\]]+)\]([^\[]+)\[\/url\]/ig, '<a href="$1">$2</a>');
+      str = str.replace(/\[url\]([^\[]+)\[\/url\]/ig, '<a href="$1">$1</a>');
+      return str
+  }
+  function bd(str, f) {
+      var tmp = "";
+      for (var i = 0; i < str.length; i++) {
+          if (f == 1) {
+              tmp = ToFull(str)
+          } else {
+              if (f == 2) {
+                  tmp = ToHalf(str)
+              } else {
+                  tmp = str
+              }
+          }
+      }
+      return tmp
+  }
+  function ToFull(txtstring) {
+      if (txtstring == "") {
+          alert("请输入要转换的字符");
+          return
+      }
+      var tmp = "";
+      for (var i = 0; i < txtstring.length; i++) {
+          if (txtstring.charCodeAt(i) == 32) {
+              tmp = tmp + String.fromCharCode(12288)
+          } else {
+              if (txtstring.charCodeAt(i) < 127) {
+                  tmp = tmp + String.fromCharCode(txtstring.charCodeAt(i) + 65248)
+              } else {
+                  tmp = tmp + String.fromCharCode(txtstring.charCodeAt(i))
+              }
+          }
+      }
+      return tmp
+  }
+  function ToHalf(str) {
+      if (str == "") {
+          alert("请输入要转换的字符");
+          return
+      }
+      var tmp = "";
+      for (var i = 0; i < str.length; i++) {
+          if (str.charCodeAt(i) > 65280 && str.charCodeAt(i) < 65375) {
+              tmp += String.fromCharCode(str.charCodeAt(i) - 65248)
+          } else {
+              if (str.charCodeAt(i) == 12288) {
+                  tmp += String.fromCharCode(32)
+              } else {
+                  tmp += String.fromCharCode(str.charCodeAt(i))
+              }
+          }
+      }
+      return tmp
+  }
+  function len_str(str){
+  	var strs=str.split(""),len=len_1=len_2=len_3=0//[字符,空格,符号]
+  	for(i=0;i<strs.length;i++){
+  		++len
+  	}
+  	return len;
+  }
+  function restr(con,str,tostr){
+  	if(con && str && tostr){
+  		var con=con.replace(new RegExp(str,"g"), tostr)
+  	}
+  	return con
+  }
+  </script>
+</body></html>
